@@ -1,0 +1,167 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>V A S A N T H A N</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" 
+    integrity="shp84-opvJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+  <link rel="stylesheet" type="text/css" href="./css/media.css">
+</head>
+<body>
+	<nav>
+        <input type="checkbox" id="toggle">
+        <label class="checkbtn" for="toggle">&#9776;</label>
+        <label class="logo">MONSOON</label>
+        <ul>
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#aboutme">ABOUT ME</a></li>
+            <li><a href="#education">EDUCATION</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+        </ul>
+    </nav>
+    <section class="showcase" id="home">
+    	<div class="content">
+                    <h1>LIFE RULE:</h1>
+        <h1>If it seems to be easy,
+        You are doing it wrong</h1>
+
+    	</div>
+    </section> 
+    <section class="aboutme" id="aboutme">
+                <h1 class="center line-height title">ABOUT ME</h1>
+                <div class="grid-2 intro-text">
+        <div class="content">
+            <li>Hi!, Iam Vasanthan ,Basically,Iam a Developing Software Engineer and Iam from Salem ,Tamil Nadu,India..And Iam Interested in Web Designs And Web Development.</li>
+            <li> Now Iam Pursuing My U.G. Degree in K.S.R.College of Engineering in Thiruchengode And "Believe Yourself...You can win this World"..That's my Motto</li>
+            <li>Interested in learning web technologies like HTML,CSS,JavaScript,SQL,Jquery</li>
+        </div>
+            <div class="image">
+                <img src="./images/pdp.jpg">
+            </div>
+    </div>
+    </section>
+    <section class="education" id="education">
+        <h1 class="center line-height title">EDUCATION</h1>
+        <div class="gridp">
+            
+<div class="timeline">
+    <div class="container left">
+      <div class="box">
+        <h2>2022*</h2>
+        <h2 class="center">B.E CSE</h2>
+        <p>Computer Science and Engineering</p>
+          <p>K.S.R College of Engineering</p>
+          <p>Tiruchengode, Namakkal District</p>
+          <p>Tamilnadu</p>
+         <p>CGPA : 8*</p>
+          <p>(upto II sem).</p>
+      </div>
+    </div>
+    <div class="container right">
+      <div class="box">
+        <h2>2018</h2>
+        <h2 class="center">HSC</h2>
+          <p>THE GUGAI HIGHER SECONDARY SCHOOL</p>
+          <p>Gugai, Salem District</p>
+          <p>Tamilnadu</p>
+         <p>percentage : 69%</p>
+      </div>
+    </div>
+    <div class="container left">
+      <div class="box">
+        <h2>2016</h2>
+        <h2 class="center">SSLC</h2>
+          <p>THE GUGAI HIGHER SECONDARY SCHOOL</p>
+          <p>Gugai, Salem District</p>
+          <p>Tamilnadu</p>
+         <p>percentage : 95%</p>
+      </div>
+    </div>
+  </div>
+        </div>
+    </section>
+<section class="skills" id="skills">
+  <h1 class="center line-height title">SKILLS</h1>
+  <div class="sk intro-text">
+  <div class="skill skill-1">
+    <h1>TECHNICAL SKILLS</h1>
+    <li>HTML & CSS</li>
+    <li>JAVA SCRIPT</li>
+    <li>BOOTSTRAP</li>
+    <li>C</li>
+    <li>PYTHON</li>
+
+    
+  </div>
+  <div class="skill skill-2">
+    <h1>DEVELOPMENT TOOLS</h1>
+      <li>Eclipse IDE</li>
+      <li>Oracle Database</li>
+      <li>Brackets</li>
+      <li>JetBrains WebStorm</li>
+      <li>Visual Studio Code</li>
+  </div>
+</div>
+
+</section> 
+ <section class="contact" id="contact">
+  <h1 class="center title">CONTACT</h1>
+  <div class="jumbo">
+    <div class="bio">
+      <h1 class="center name">VASANTHAN</h1>
+        <p>B.E COMPUTER SCIENCE AND ENGINEERING *</p>
+        <p>STUDENT BATCH (2018 - 2022)</p>
+        <p>K.S.R COLLEGE OF ENGINEERING (AUTONOMOUS)</p>
+        <p>TIRUCHENGODE - NAMAKKAL DISTRICT</p>
+        <p>TAMILNADU - INDIA</p>
+        <p>MAIL : vasanthan22001@gmail.com</p>
+        <p>CONTACT : +91 83000 36415</p>
+    <ul id="social">
+      <li><a class="media" href="#"><i class="fab fa-facebook-f"></i><a></li>
+      <li><a class="media" href="#"><i class="fab fa-google-plus-g"></i></a></li>
+      <li><a class="media" href="#"><i class="fab fa-github"></i></a></li>
+       <li><a class="media" href="#"><i class="fab fa-linkedin-in"></i></a></li>
+      
+  </ul>
+  </div>
+  </div>
+</section> 
+<footer>
+  <h3 class="center">DESIGNED BY P.VASANTHAN</h3>
+</footer> 
+    <script>
+    function ScrollAppear(){
+        var introText=document.querySelectorAll(".intro-text");
+        var screenPosition=window.innerHeight/1.5;
+        for(i=0;i<introText.length;i++){
+        var introPosition=introText[i].getBoundingClientRect().top;
+        console.log(introPosition);
+        if(introPosition<screenPosition){
+            introText[i].classList.add("to-top");
+        }
+        else if(introPosition>screenPosition){
+            introText[i].classList.remove("to-top");
+        };
+        }
+        
+        // console.log(introPosition);
+        // console.log(screenPosition);
+       
+        
+       
+        
+    }
+    window.addEventListener('scroll',ScrollAppear)
+    
+    
+    
+    
+    </script></script>
+</body>
+</html>

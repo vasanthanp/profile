@@ -1,0 +1,132 @@
+ @media (max-width: 952px){
+    label.logo{
+    font-size: 30px;
+    padding-left: 50px;
+    }
+    nav ul li{
+    font-size: 16px;
+    }
+    }
+    @media (max-width: 858px){
+    .checkbtn{
+        display: block;
+    }
+    nav ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #2c3e50;
+        top:80px;
+        left:-100%;
+        text-align: center;
+        transition: all .5s;
+        }
+        nav ul li{
+            display: block;
+            margin:50px 0;
+            line-height: 30px;
+            }
+        nav ul li a{
+            font-size: 20px;
+        }
+        nav ul li a.active,nav ul li a:hover{
+            background:none;
+            color: #0082e6;
+        }
+        #toggle:checked ~ul{
+            left:0;
+            z-index: 2;
+        }
+        .grid-2{
+            flex-direction: column;
+        }.grid-2 .content{
+            width:80%;
+        }
+        .image{
+            margin: 50px auto;
+            
+    }
+        .skill{
+            margin:50px auto;
+        }
+        }
+        @media screen and (max-width: 768px) {
+            body{
+                overflow-y: hidden;
+            }
+            /* Place the timelime to the left */
+             .timeline::after {
+            left: 31px;
+            }
+            
+            /* Full-width containers */
+            .container {
+            width: 100%;
+            padding-left: 70px;
+            padding-right: 25px;
+            } 
+            
+            /* Make sure that all arrows are pointing leftwards */
+            .container::before {
+            left: 60px;
+            border: medium solid white;
+            border-width: 10px 10px 10px 0;
+            border-color: transparent white transparent transparent;
+            }
+          
+           /*Make sure all circles are at the same spot */
+            .left::after, .right::after {
+            left: 15px;
+            }
+            
+            /* Make all right containers behave like the left ones */
+            .right {
+            left: 0%;
+            }
+            .showcase .content{
+                font-size: 10px;
+            }
+            #social{
+                display:flex;
+                justify-content: center;
+                width: 100%;
+            }
+            .media{
+                position:relative;
+                width:50px;
+                height:50px;
+                background:linear-gradient(0deg,#ddd,#fff);
+                display:block;
+                color:black;
+                margin-left:20px;
+                text-align:center;
+                border-radius:50%;
+                padding:6px;
+                box-sizing: border-box;
+                box-shadow: 0 10px 15px  rgba(0, 0,0, 0.3);
+                transition:.5s;
+               
+            }
+              .jumbo .bio{
+                  font-size: 14px;
+               line-height: 1.6rem;
+               justify-content: center;
+               align-items: center;
+              
+              }
+              footer{
+                line-height: 80px;
+                color:#50E590;
+              }
+              #social{
+                display:flex;
+                justify-content: center;
+                width: 100%;
+                text-align: center;
+            }
+            .sk{
+                display: block;
+                width: 100%;
+                
+              }
+        } 
